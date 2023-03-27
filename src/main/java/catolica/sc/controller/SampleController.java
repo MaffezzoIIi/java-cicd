@@ -12,4 +12,9 @@ public class SampleController {
     public ResponseEntity<String> get(){
         return new ResponseEntity<>("OK", HttpStatus.OK);
     }
+
+    @GetMapping("/teste")
+    public ResponseEntity<String> getTeste(){
+        return new ResponseEntity<>("OK", HttpStatus.OK);
+    }
 }
